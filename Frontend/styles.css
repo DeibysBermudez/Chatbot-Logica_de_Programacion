@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #1a1332 url('https://asset.gecdesigns.com/img/background-templates/abstract-navy-red-background-design-sr17012401-1705501852665-cover.webp') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+.chat-container {
+  background: rgba(21, 25, 29, 0.85);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px black;
+  padding: 12px 24px;
+  width: 90%;
+  max-width: 390px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+
+h1 {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  ;
+  ;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 2px 12px #1206f2;
+  font-size: 2em;
+  margin-bottom: 8px;
+}
+
+
+#chat {
+  background: rgba(16, 21, 39, 0.8);
+  border-radius: 10px;
+  padding: 12px;
+  height: 340px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 16px;
+}
+
+
+.message {
+  padding: 8px 11px;
+  border-radius: 9px;
+  color: #ffffff;
+  word-wrap: break-word;
+  max-width: 80%;
+  margin-bottom: 2px;
+}
+
+.user {
+  align-self: flex-end;
+  background: linear-gradient(90deg, #620104 20%, #07015b 100%);
+}
+
+.bot {
+  align-self: flex-start;
+  background: linear-gradient(90deg, #07015b 20%, #620104 80%);
+}
+
+
+.input-container {
+  display: flex;
+  gap: 8px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 9px;
+  border-radius: 8px;
+  border: none;
+  background: rgba(16, 21, 39, 0.8);
+  color: #ffffff;
+  font-size: 15px;
+
+}
+
+button {
+  padding: 9px 18px;
+  border-radius: 7px;
+  border: none;
+  background: linear-gradient(90deg, #620104 20%, #07015b 100%);
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background .2s;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #ff0008 20%, #1807ff 100%);
+  color: #fff;
+}
+
+
+#chat::-webkit-scrollbar {
+  width: 7px;
+}
+
+#chat::-webkit-scrollbar-thumb {
+  background: #0a85ff;
+  border-radius: 10px;
+}
+
+#chat::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
+.typing {
+  font-style: italic;
+  color: #fcfcfc;
+  opacity: 0.7;
+  border-radius: 7px;
+}
