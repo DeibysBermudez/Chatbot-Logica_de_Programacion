@@ -1,4 +1,4 @@
-# 🤖 Chatbot API Experto logica de Programación
+# 🤖 Chatbot API Experto en logica de Programación
 Este proyecto es un chatbot web que responde preguntas sobre lógica de programación, algoritmos y estructuras de control. El backend está desarrollado en **Python** usando **FastAPI** y el frontend en **HTML, CSS y JavaScript**. El bot utiliza modelos de lenguaje a través de la API de OpenRouter.
 
 ---
